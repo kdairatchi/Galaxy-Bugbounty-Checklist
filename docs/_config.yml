@@ -1,0 +1,125 @@
+# GitHub Pages Configuration for Galaxy Bug Bounty Checklist
+title: Galaxy Bug Bounty Checklist
+description: A comprehensive, modern bug bounty vulnerability checklist covering the latest attack techniques, bypass methods, and exploitation strategies for security researchers and bug bounty hunters.
+author: 0xmaximus
+email: maximus0xday@gmail.com
+url: https://0xmaximus.github.io
+baseurl: /Galaxy-Bugbounty-Checklist
+
+# GitHub Pages settings
+github:
+  repository_url: https://github.com/0xmaximus/Galaxy-Bugbounty-Checklist
+  repository_name: Galaxy-Bugbounty-Checklist
+
+# Theme and styling
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Vulnerabilities
+    url: /vulnerabilities/
+  - title: Methodology
+    url: /methodology/
+  - title: Tools
+    url: /tools/
+  - title: Resources
+    url: /resources/
+
+# Collections
+collections:
+  vulnerabilities:
+    output: true
+    permalink: /:collection/:name/
+  methodology:
+    output: true
+    permalink: /:collection/:name/
+  tools:
+    output: true
+    permalink: /:collection/:name/
+  resources:
+    output: true
+    permalink: /:collection/:name/
+
+# Default settings
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "vulnerabilities"
+    values:
+      layout: "vulnerability"
+  - scope:
+      path: ""
+      type: "methodology"
+    values:
+      layout: "methodology"
+  - scope:
+      path: ""
+      type: "tools"
+    values:
+      layout: "tool"
+  - scope:
+      path: ""
+      type: "resources"
+    values:
+      layout: "resource"
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+
+# Exclude files
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Include files
+include:
+  - _pages
+
+# Build settings
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# SEO settings
+seo:
+  type: "WebSite"
+  locale: "en_US"
+  name: "Galaxy Bug Bounty Checklist"
+  description: "Comprehensive bug bounty vulnerability checklist with modern attack techniques and exploitation strategies"
+  url: "https://0xmaximus.github.io/Galaxy-Bugbounty-Checklist"
+  image: "https://0xmaximus.github.io/Galaxy-Bugbounty-Checklist/assets/images/og-image.png"
+  twitter:
+    username: "0xmaximus"
+    card: "summary_large_image"
+  facebook:
+    app_id: "123456789"
+    publisher: "https://facebook.com/0xmaximus"
+  google:
+    site_verification: "your-google-site-verification-code"

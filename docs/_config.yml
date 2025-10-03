@@ -3,12 +3,12 @@ title: Galaxy Bug Bounty Checklist
 description: A comprehensive, modern bug bounty vulnerability checklist covering the latest attack techniques, bypass methods, and exploitation strategies for security researchers and bug bounty hunters.
 author: 0xmaximus
 email: maximus0xday@gmail.com
-url: https://0xmaximus.github.io
+url: https://kdairatchi.github.io
 baseurl: /Galaxy-Bugbounty-Checklist
 
 # GitHub Pages settings
 github:
-  repository_url: https://github.com/0xmaximus/Galaxy-Bugbounty-Checklist
+  repository_url: https://github.com/kdairatchi/Galaxy-Bugbounty-Checklist
   repository_name: Galaxy-Bugbounty-Checklist
 
 # Theme and styling
@@ -113,8 +113,8 @@ seo:
   locale: "en_US"
   name: "Galaxy Bug Bounty Checklist"
   description: "Comprehensive bug bounty vulnerability checklist with modern attack techniques and exploitation strategies"
-  url: "https://0xmaximus.github.io/Galaxy-Bugbounty-Checklist"
-  image: "https://0xmaximus.github.io/Galaxy-Bugbounty-Checklist/assets/images/og-image.png"
+  url: "https://kdairatchi.github.io/Galaxy-Bugbounty-Checklist"
+  image: "https://kdairatchi.github.io/Galaxy-Bugbounty-Checklist/assets/images/og-image.png"
   twitter:
     username: "0xmaximus"
     card: "summary_large_image"

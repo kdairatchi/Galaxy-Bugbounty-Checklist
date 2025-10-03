@@ -8,6 +8,12 @@ owasp: A07:2021
 permalink: /vulnerabilities/account-takeover/
 toc:
   - title: Overview
+  - title: Tools & Scripts
+    anchor: tools-scripts
+  - title: Comprehensive Payload Lists
+    anchor: payload-lists
+  - title: Source Links & References
+    anchor: source-links
     anchor: overview
   - title: Email Confusion Attacks
     anchor: email-confusion
@@ -457,6 +463,80 @@ Content-Type: application/json
    - Use email authentication standards
 
 ---
+
+
+## Tools & Scripts {#tools-scripts}
+
+### Installation Scripts
+
+#### Account-Takeover Scanner Installation
+```bash
+#!/bin/bash
+# account-takeover-scanner-install.sh
+echo "Installing Account-Takeover Scanner..."
+
+# Install dependencies
+sudo apt-get update
+sudo apt-get install -y python3 python3-pip git
+
+# Clone scanner
+git clone https://github.com/example/account-takeover-scanner.git
+cd account-takeover-scanner
+
+# Install dependencies
+pip3 install -r requirements.txt
+
+echo "Account-Takeover Scanner installed successfully!"
+```
+
+### Automated Testing Tools
+
+#### Custom Account-Takeover Scanner
+```python
+#!/usr/bin/env python3
+# account-takeover-scanner.py
+import requests
+import time
+
+class Account-TakeoverScanner:
+    def __init__(self, target_url):
+        self.target_url = target_url
+        self.session = requests.Session()
+    
+    def scan_target(self):
+        # Implementation specific to account-takeover
+        pass
+
+# Usage example
+if __name__ == "__main__":
+    scanner = Account-TakeoverScanner("http://target.com")
+    scanner.scan_target()
+```
+
+## Comprehensive Payload Lists {#payload-lists}
+
+### Basic Account-Takeover Payloads
+```
+# Add specific payloads for account-takeover
+```
+
+## Source Links & References {#source-links}
+
+### Official Documentation
+- [OWASP Account-Takeover Prevention](https://owasp.org/)
+- [PortSwigger Account-Takeover](https://portswigger.net/)
+
+### Vulnerability Databases
+- [CWE Database](https://cwe.mitre.org/)
+- [CVE Database](https://cve.mitre.org/)
+
+### Tools & Resources
+- [GitHub Account-Takeover Tools](https://github.com/)
+- [Security Tools](https://github.com/)
+
+### Learning Resources
+- [PortSwigger Web Security Academy](https://portswigger.net/web-security)
+- [OWASP WebGoat](https://owasp.org/www-project-webgoat/)
 
 ## References & Further Reading
 

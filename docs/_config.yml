@@ -11,6 +11,9 @@ github:
   repository_url: https://github.com/kdairatchi/Galaxy-Bugbounty-Checklist
   repository_name: Galaxy-Bugbounty-Checklist
 
+# Repository configuration for GitHub Pages
+repository: kdairatchi/Galaxy-Bugbounty-Checklist
+
 # Theme and styling
 theme: minima
 plugins:

@@ -50,6 +50,11 @@ jobs:
       - name: 🔧 Setup Pages
         uses: actions/configure-pages@v4
         
+      - name: 📦 Install Jekyll dependencies
+        run: |
+          cd docs
+          bundle install
+          
       - name: 📋 Validate Jekyll configuration
         run: |
           cd docs

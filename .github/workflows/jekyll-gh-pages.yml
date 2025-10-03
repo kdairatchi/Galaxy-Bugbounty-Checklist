@@ -65,7 +65,6 @@ jobs:
           cd docs
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --verbose
         env:
-          JEKYLL_ENV: production
           PAGES_REPO_NWO: kdairatchi/Galaxy-Bugbounty-Checklist
           
       - name: 🔍 Validate build output

